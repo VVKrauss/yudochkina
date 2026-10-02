@@ -74,6 +74,10 @@ h3 {
 .price { font-weight: 700; font-size: 15px; margin: 8px 0 0; }
 .loc { font-size: 12px; color: var(--accent); margin-top: 4px; text-decoration: none; border-bottom: 1px solid currentColor; align-self: flex-start; }
 .loc:hover { opacity: .7; }
+.statement { display: grid; gap: 30px 44px; grid-template-columns: 1fr; margin: 34px 0 0; }
+@media (min-width: 760px) { .statement { grid-template-columns: 1fr 1fr; } }
+.statement .lang { font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 12px; letter-spacing: .14em; color: var(--accent); margin: 0 0 8px; }
+.statement p.text { margin: 0; font-size: 14px; line-height: 1.65; max-width: 46ch; }
 footer { margin-top: 72px; border-top: 1.5px solid var(--rule); padding-top: 20px; font-size: 13px; color: var(--muted); }
 footer b { font-family: Anton, Impact, sans-serif; font-weight: 400; color: var(--ink); font-size: 15px; letter-spacing: .02em; }
 </style>
@@ -86,6 +90,17 @@ footer b { font-family: Anton, Impact, sans-serif; font-weight: 400; color: var(
   <p>All works are available for purchase. Prices in RSD.</p>
   <hr>
 </header>
+
+<div class="statement">
+  <div>
+    <p class="lang">EN</p>
+    <p class="text">Glamorous kitsch, Soviet and Yugoslav housing blocks, typography and the draughtsman's grid. Debris of eras and ideologies, fragments of fashion, stray patches of colour, silhouettes, textures — in collage as in the contemporary city, everything collides at once deliberately, demonstratively and by chance. Things that seem infinitely far apart come together in the space of the city and of the collage, and it suddenly turns out they have far more in common than they appear to. And perhaps what they have in common is us.</p>
+  </div>
+  <div>
+    <p class="lang">RU</p>
+    <p class="text">Гламурный китч, советские и югославские панельки, типографика и чертёжная сетка. Обломки эпох и идеологий, фрагменты моды и случайные пятна красок, силуэты, текстуры — и в коллаже, и в современном городе всё нарочно, нарочито и хаотично сталкивается друг с другом. То, что кажется бесконечно далёким друг от друга, соединяется в пространстве города и коллажа, и вдруг оказывается, что у всего этого гораздо больше общего, чем представлялось. И может быть, общее — это мы.</p>
+  </div>
+</div>
 
 <h2>DIGITAL EDITIONS</h2>
 <p class="note">Each work is an edition of 5 — maximum five copies per image.</p>
@@ -224,22 +239,36 @@ footer b { font-family: Anton, Impact, sans-serif; font-weight: 400; color: var(
 <article class="card">
   <div class="frame"><div class="noimg">image to follow</div></div>
   <h3>TURN</h3>
-  <p class="meta">Analog collage</p>
+  <p class="meta">Analog collage · 25 × 36 cm</p>
   <p class="price">6.500 RSD</p>
   
 </article>
 <article class="card">
   <div class="frame"><div class="noimg">image to follow</div></div>
   <h3>SHARDS</h3>
-  <p class="meta">Analog collage</p>
+  <p class="meta">Analog collage · 26 × 42 cm</p>
   <p class="price">6.500 RSD</p>
   
 </article>
 <article class="card">
   <div class="frame"><div class="noimg">image to follow</div></div>
   <h3>SOARING</h3>
-  <p class="meta">Analog collage</p>
+  <p class="meta">Analog collage · 34 × 28 cm</p>
   <p class="price">6.500 RSD</p>
+  
+</article>
+<article class="card">
+  <div class="frame"><div class="noimg">image to follow</div></div>
+  <h3>DIMENSIONS</h3>
+  <p class="meta">Analog collage · 21 × 30 cm</p>
+  <p class="price">4.500 RSD</p>
+  
+</article>
+<article class="card">
+  <div class="frame"><div class="noimg">image to follow</div></div>
+  <h3>PATHS</h3>
+  <p class="meta">Analog collage · 30 × 19 cm</p>
+  <p class="price">5.500 RSD</p>
   
 </article>
 </div>
